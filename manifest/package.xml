@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>OpportunityTriggerHandler</members>
+		<members>OpportunityTriggerHandlerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Account.Total_Sales_Recycled_Wood__c</members>
+		<members>Account.Total_Sales_Standard_Wood__c</members>
+		<members>Opportunity.Wood_Type__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Opportunity.Corporate</members>
+		<members>Opportunity.Inside</members>
+		<members>Opportunity.Outside</members>
+		<name>RecordType</name>
+	</types>
+	<version>53.0</version>
+</Package>
